@@ -20,3 +20,5 @@ if st.sidebar.button("Predict Churn") :
     else:
         st.success("The customer is likely to stay")
 
+st.markdown("---")
+st.caption("Built using Streamlit & Random Forest")
